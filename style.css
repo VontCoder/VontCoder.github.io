@@ -50,11 +50,11 @@ ul {
 
 .submenu{
 	display: none;
-	transiton: 0.2s ease-out;
 }
 
 .menu a:hover{
 	background-color: #f9f9f9;
+	transition: 0.2s ease-out;
 }
 
 .menu li:hover .submenu {
