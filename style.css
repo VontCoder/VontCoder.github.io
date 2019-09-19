@@ -46,6 +46,7 @@ ul {
 	overflow: hidden;
 	float: left;
 	position: absolute;
+	transiton: 0.2s ease-out;
 }
 
 .submenu{
