@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Play|Russo+One&display=swap');
+
+::-webkit-scrollbar { width: 20px; height: 6px;}
+::-webkit-scrollbar-button {  background: rgba(0,0,0,0); }
+::-webkit-scrollbar-track {  background: rgba(0,0,0,0);}
+::-webkit-scrollbar-track-piece { background: rgba(0,0,0,0);}
+::-webkit-scrollbar-thumb { height: 1px; background: rgba(0,0,0,0);}
+::-webkit-scrollbar-corner { background: rgba(0,0,0,0);}}
+::-webkit-resizer { background: rgba(0,0,0,0);}
+
+
+
+.bag{}
+
+.back {
+	background-color: white;
+	margin: 0px -8px;
+}
+
+.logo{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+
+.a {
+	text-decoration: none;
+	color: #575757;
+	padding: 10px;
+	background-color:white;
+	display: block;
+	font-size: 15px;
+	font-family: 'Russo One', sans-serif;
+}
+
+ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+.menu {
+	border: 1px solid #8f8f8f;
+	min-width: 170px;
+	min-height: 40px;
+	overflow: hidden;
+	float: left;
+	position: absolute;
+}
+
+.submenu{
+	display: none;
+}
+
+.menu a:hover{
+	background-color: #f9f9f9;
+}
+
+.menu li:hover .submenu {
+	display: block;
+	transition: 1s;
+}
+
+.content{
+	margin-left: 7.33%;
+	margin-top: 20px;
+	width: 85.52%;
+	height: 500px;
+	background-color: #f9f9f9;
+	border:1px solid #8f8f8f;
+	overflow: auto;
+}
+
+.programs{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	border: 1px solid #8f8f8f;
+	font-size: 30px;
+	min-height: 110px;
+}
+
+.side {
+	margin-top: 12px;
+	margin-right: 2.93%;
+	float: right;
+	margin-left: 80.59%;
+	position: absolute;
+}
+
+.footer{
+	height: 100px;
+	background-color: #f9f9f9;
+	margin-top: 50px;
+	margin-left: -9px;
+	margin-bottom: -8px;
+	border:1px solid #8f8f8f;
+	font-size: 20px;
+	font-family: 'Play', sans-serif;
+	width: 97.07%;
+}
+
+.footext{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.progimg {
+	margin-top: 5px;
+	margin-left: 5px;
+	float:left;
+}
+
+.text {
+	font-family: 'Play', sans-serif;
+	font-size: 25px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.title{
+	font-size: 30px;
+	margin-top: 5px;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+}
