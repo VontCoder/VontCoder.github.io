@@ -50,7 +50,7 @@ ul {
 }
 
 .submenu{
-	visibility:hidden;
+	display:none;
 	transition: 0.5s ease-out;
 }
 
@@ -59,7 +59,7 @@ ul {
 }
 
 .menu li:hover .submenu {
-	visibility:visible;
+	display:block;
 }
 
 .content{
